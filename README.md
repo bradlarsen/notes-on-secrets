@@ -1,5 +1,11 @@
 # Notes on Secrets
 
+- 2023-12-04: Bar Lanyado from Lasso Security [found more than 1500 valid exposed HuggingFace API tokens](https://www.lasso.security/blog/1500-huggingface-api-tokens-were-exposed-leaving-millions-of-meta-llama-bloom-and-pythia-users-for-supply-chain-attacks) using the search functionality on GitHub and HuggingFace.
+  Some of the tokens had write permission, including to high-profile models including [Bloom](https://bigscience.huggingface.co/blog/bloom), [Meta-Llama](https://ai.meta.com/llama/), and [Pythia](https://github.com/EleutherAI/pythia).
+  These leaked credentials could be used for several supply chain attacks, including backdooring models, poisoning training data, and stealing confidential models and data.
+  This was additionally covered [here](https://www.darkreading.com/vulnerabilities-threats/meta-ai-models-cracked-open-exposed-api-tokens).
+
+
 - 2023-12-04: GitHub [now scans discussions for secrets](https://github.blog/changelog/2023-12-04-secret-scanning-now-detects-new-secrets-in-github-discussion-content/).
   This is an extension on their earlier changes to [scan issues for secrets](https://github.blog/changelog/2023-08-16-secret-scanning-detects-secrets-in-issues-for-free-public-repositories/).
 
