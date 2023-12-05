@@ -1,5 +1,9 @@
 # Notes on Secrets
 
+- 2023-12-04: [Cyber Av3ngers gang hacks industrial controllers across multiple US states](https://www.scmagazine.com/news/cyber-av3ngers-gang-hacks-industrial-controllers-across-multiple-us-states)
+  An Iranian threat group hacked into a Pennsylvanian water authority pump station controller, Pittsburgh’s Full Pint Beer brewery, 4 other utilities, and a public aquarium.
+  The targets involved Unitronics PLCs, which were compromised using the default port (20256) and credentials (`1111`).
+
 - 2023-12-04: Bar Lanyado from Lasso Security [found more than 1500 valid exposed HuggingFace API tokens](https://www.lasso.security/blog/1500-huggingface-api-tokens-were-exposed-leaving-millions-of-meta-llama-bloom-and-pythia-users-for-supply-chain-attacks) using the search functionality on GitHub and HuggingFace.
   Some of the tokens had write permission, including to high-profile models including [Bloom](https://bigscience.huggingface.co/blog/bloom), [Meta-Llama](https://ai.meta.com/llama/), and [Pythia](https://github.com/EleutherAI/pythia).
   These leaked credentials could be used for several supply chain attacks, including backdooring models, poisoning training data, and stealing confidential models and data.
