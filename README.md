@@ -9,7 +9,6 @@
   These leaked credentials could be used for several supply chain attacks, including backdooring models, poisoning training data, and stealing confidential models and data.
   This was additionally covered [here](https://www.darkreading.com/vulnerabilities-threats/meta-ai-models-cracked-open-exposed-api-tokens).
 
-
 - 2023-12-04: GitHub [now scans discussions for secrets](https://github.blog/changelog/2023-12-04-secret-scanning-now-detects-new-secrets-in-github-discussion-content/).
   This is an extension on their earlier changes to [scan issues for secrets](https://github.blog/changelog/2023-08-16-secret-scanning-detects-secrets-in-issues-for-free-public-repositories/).
 
