@@ -1,5 +1,11 @@
 # Notes on Secrets
 
+- 2024-01-17: [Microsoft credentials for Toyota Tsusho Insurance Broker India leaked via insurance calculator website](https://eaton-works.com/2024/01/17/ttibi-email-hack/)
+  A security researcher at [Eaton](https://eaton-works.com/) found exposed Microsoft credentials for Toyota Tsusho Insurance Broker India on an insurance calculator website for Eicher Motors.
+  The insurance calculator website allowed _anyone_ to have it send an email.
+  When this functionality was exploited, the HTTP response included server error log messages that exposed additional credentials.
+  The researcher was able to access the sending email account, and found all previous emails that had been sent, comprising more than 25GiB of sensitive data.
+
 - 2023-12-04: [Cyber Av3ngers gang hacks industrial controllers across multiple US states](https://www.scmagazine.com/news/cyber-av3ngers-gang-hacks-industrial-controllers-across-multiple-us-states)
   An Iranian threat group hacked into a Pennsylvanian water authority pump station controller, Pittsburgh’s Full Pint Beer brewery, 4 other utilities, and a public aquarium.
   The targets involved Unitronics PLCs, which were compromised using the default port (20256) and credentials (`1111`).
