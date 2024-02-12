@@ -1,5 +1,7 @@
 # Notes on Secrets
 
+- 2024-02-01: [Football Australia hardcodes AWS keypairs into its HTML source, granting access to 127 S3 buckets containing PII, source code, and other non-public data.](https://cybernews.com/security/football-australia-leak-expose-players/)
+
 - 2024-01-17: [Microsoft credentials for Toyota Tsusho Insurance Broker India leaked via insurance calculator website](https://eaton-works.com/2024/01/17/ttibi-email-hack/)
   A security researcher at [Eaton](https://eaton-works.com/) found exposed Microsoft credentials for Toyota Tsusho Insurance Broker India on an insurance calculator website for Eicher Motors.
   The insurance calculator website allowed _anyone_ to have it send an email.
