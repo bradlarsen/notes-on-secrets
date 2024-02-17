@@ -1,5 +1,7 @@
 # Notes on Secrets
 
+This is a list of two things: (1) security incidents that involved exposed secrets, and (2) security research on secret detection.
+
 - 2024-02-17: [BMW exposes secret access keys and internal data via Azure bucket misconfiguration.](https://techcrunch.com/2024/02/14/bmw-security-lapse-exposed-sensitive-company-information-researcher-finds/)
 
 - 2024-02-01: [Football Australia hardcodes AWS keypairs into its HTML source, granting access to 127 S3 buckets containing PII, source code, and other non-public data.](https://cybernews.com/security/football-australia-leak-expose-players/)
