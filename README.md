@@ -2,6 +2,11 @@
 
 This is a list of two things: (1) security incidents that involved exposed secrets, and (2) security research on secret detection.
 
+- 2024-06-23: [Phantom Secrets: Undetected Secrets Expose Major Corporations](https://www.aquasec.com/blog/undetected-hard-code-secrets-expose-corporations/)
+
+  Yakir Kadkoda and Ilay Goldman of Aqua Security investigate how to find additional content in Git repositories that are missed when you do a simple `git clone`.
+  As part of this research they demonstrate several cases of real secrets that they found that had been missed previously, which allowed unintended access to several systems.
+
 - 2024-04-15: [50k smart locks from Chirp Systems vulnerable to remote unlock using hardcoded credentials](https://krebsonsecurity.com/2024/04/crickets-from-chirp-systems-in-smart-lock-key-leak/)
 
 - 2024-04-14: [Finding secrets in "lost" commits on GitLab](https://tales.fromprod.com/2024/056/gitlab-secrets.html)
