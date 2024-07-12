@@ -2,6 +2,11 @@
 
 This is a list of two things: (1) security incidents that involved exposed secrets, and (2) security research on secret detection.
 
+- 2024-07-08: [Researchers at JFrog find a privileged GitHub access token for the PyPI, Python, and Python Software Foundation organizations](https://jfrog.com/blog/leaked-pypi-secret-token-revealed-in-binary-preventing-suppy-chain-attack/).
+
+  The token was found within a Python bytecode file (a .pyc file) and did not correspond to what was included in source code.
+  More details are shared on the [PyPI blog](https://blog.pypi.org/posts/2024-07-08-incident-report-leaked-admin-personal-access-token/).
+
 - 2024-06-23: [Phantom Secrets: Undetected Secrets Expose Major Corporations](https://www.aquasec.com/blog/undetected-hard-code-secrets-expose-corporations/)
 
   Yakir Kadkoda and Ilay Goldman of Aqua Security investigate how to find additional content in Git repositories that are missed when you do a simple `git clone`.
