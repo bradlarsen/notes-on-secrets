@@ -2,6 +2,8 @@
 
 This is a list of two things: (1) security incidents that involved exposed secrets, and (2) security research on secret detection.
 
+- 2024-10-29: [Partial passwords for Colorado voting systems accidentally exposed in spreadsheet of Department of State website](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2024/PR20241029Passwords.html).
+
 - 2024-07-08: [Researchers at JFrog find a privileged GitHub access token for the PyPI, Python, and Python Software Foundation organizations](https://jfrog.com/blog/leaked-pypi-secret-token-revealed-in-binary-preventing-suppy-chain-attack/).
 
   The token was found within a Python bytecode file (a .pyc file) and did not correspond to what was included in source code.
