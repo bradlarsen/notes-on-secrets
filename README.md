@@ -4,6 +4,12 @@ This is a list of two things: (1) security incidents that involved exposed secre
 
 - 2024-10-29: [Partial passwords for Colorado voting systems accidentally exposed in spreadsheet of Department of State website](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2024/PR20241029Passwords.html).
 
+- 2024-08-08: [What's the worst place to leave your secrets? Research into what happens to AWS credentials that are left in public places](https://cybenari.com/2024/08/whats-the-worst-place-to-leave-your-secrets/).
+
+  Idan Ben Ari at Cybernari use canary tokens to investigate how quickly tokens are detected and used when placed in various public places.
+  The places include GitHub, GitLab, Bitbucket, DockerHub, HTTP servers, FTP servers, Pastebin, JSFiddle, PyPI, npm, S3, and GCS.
+  Half the tokens were compromised, sometimes within seconds or minutes of publishing, though some places averaged days before compromise.
+
 - 2024-07-24: [American Megatrends International leaks its Secure Boot platform key in a public GitHub repository, affecting over 900 models](https://www.binarly.io/blog/pkfail-untrusted-platform-keys-undermine-secure-boot-on-uefi-ecosystem).
 
 - 2024-07-08: [Researchers at JFrog find a privileged GitHub access token for the PyPI, Python, and Python Software Foundation organizations](https://jfrog.com/blog/leaked-pypi-secret-token-revealed-in-binary-preventing-suppy-chain-attack/).
