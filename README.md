@@ -4,6 +4,12 @@ This is a list of two things: (1) security incidents that involved exposed secre
 
 - 2024-10-29: [Partial passwords for Colorado voting systems accidentally exposed in spreadsheet of Department of State website](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2024/PR20241029Passwords.html).
 
+- 2024-10-20: [Internet Archive compromised after hackers discover hardcoded Zendesk credentials in GitLab repositories](https://www.bleepingcomputer.com/news/security/internet-archive-breached-again-through-stolen-access-tokens/).
+
+  A hacker found an exposed GitLab configuration file that included Git credentials, allowing them to access non-public source code, which included additional credentials.
+  These credentials included Zendesk support system credentials that exposed more than 800k support tickets.
+  This is the second time in October that the Internet Archive was hacked.
+
 - 2024-08-15: [Palo Alto Network's Unit 42 researchers discover extortion campaign that gains initial access to victim networks by finding exposed secrets in accidentally exposed `.env` files](https://unit42.paloaltonetworks.com/large-scale-cloud-extortion-operation/).
 
 - 2024-08-08: [What's the worst place to leave your secrets? Research into what happens to AWS credentials that are left in public places](https://cybenari.com/2024/08/whats-the-worst-place-to-leave-your-secrets/).
