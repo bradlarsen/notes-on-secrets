@@ -7,6 +7,11 @@ This is a list of two things: (1) security incidents that involved exposed secre
   Researchers at Neo Security came across a 4TB SQL Server backup file in an Azure storage bucket.
   Through some investigation they discovered that the bucket belonged to Ernst & Young, and that it contained secrets.
 
+- 2025-07-31: [Finding secrets with a combination of regex and a fine-tuned BERT-based model](https://specterops.io/blog/2025/07/31/whats-your-secret-secret-scanning-by-deeppass2/)
+
+  SpecterOps shares details of DeepPass2, their second iteration of a system designed to detect hardcoded secrets, particularly freeform passwords.
+  DeepPass2 combines regex-based secrets detection from [Nosey Parker](https://github.com/praetorian-inc/noseyparker) with a custom fine-tuned BERT-based language model (xlm-RoBERTa-base).
+
 - 2025-06-10: [Lean and Mean: How We Fine-Tuned a Small Language Model for Secret Detection in Code](https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code)
 
   Erez Harush and Daniel Lazarev of Wiz give details of a "small" language model (Llama 3.2 1B) that they fine-tuned for generic secrets detection.
