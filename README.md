@@ -7,6 +7,11 @@ This is a list of two things: (1) security incidents that involved exposed secre
   Researchers at Neo Security came across a 4TB SQL Server backup file in an Azure storage bucket.
   Through some investigation they discovered that the bucket belonged to Ernst & Young, and that it contained secrets.
 
+- 2025-04-22: [How I made $64k from deleted files — a bug bounty story](https://medium.com/@sharon.brizinov/how-i-made-64k-from-deleted-files-a-bug-bounty-story-c5bd3a6f5f9b)
+
+  Sharon Brizinov details how he ran a secrets detection campaign at scale against numerous bug bounty programs, netting $64k.
+  His insight was to scan files in Git history that had been deleted, and were not readily accessible unless you went out of your way looking for them.
+
 - 2024-10-29: [Partial passwords for Colorado voting systems accidentally exposed in spreadsheet of Department of State website](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2024/PR20241029Passwords.html).
 
 - 2024-10-20: [Internet Archive compromised after hackers discover hardcoded Zendesk credentials in GitLab repositories](https://www.bleepingcomputer.com/news/security/internet-archive-breached-again-through-stolen-access-tokens/).
