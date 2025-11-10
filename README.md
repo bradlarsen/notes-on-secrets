@@ -7,6 +7,13 @@ This is a list of two things: (1) security incidents that involved exposed secre
   Researchers at Neo Security came across a 4TB SQL Server backup file in an Azure storage bucket.
   Through some investigation they discovered that the bucket belonged to Ernst & Young, and that it contained secrets.
 
+- 2025-06-10: [Lean and Mean: How We Fine-Tuned a Small Language Model for Secret Detection in Code](https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code)
+
+  Erez Harush and Daniel Lazarev of Wiz give details of a "small" language model (Llama 3.2 1B) that they fine-tuned for generic secrets detection.
+  They note that secret detection using big hosted LLMs would be time- and cost-prohibitive at realistic scale.
+  They share some details of their training data preparation: they used public files from GitHub, eliminated near duplicates, and used an ensemble of LLMs to detect and label likely secrets from within those files.
+  Their end result is a smaller secrets detection model that can run in a few seconds per file on a regular CPU, and scores >80% on both precision and recall.
+
 - 2025-04-22: [How I made $64k from deleted files — a bug bounty story](https://medium.com/@sharon.brizinov/how-i-made-64k-from-deleted-files-a-bug-bounty-story-c5bd3a6f5f9b)
 
   Sharon Brizinov details how he ran a secrets detection campaign at scale against numerous bug bounty programs, netting $64k.
