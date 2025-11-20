@@ -2,6 +2,12 @@
 
 This is a list of two things: (1) security incidents that involved exposed secrets, and (2) security research on secret detection.
 
+- 2025-11-19: [Secret detectors miss many real secrets due to false positive mitigations](https://semgrep.dev/blog/2025/secrets-story-and-prefixed-secrets/)
+
+  Lewis Ardern from Semgrep details a number of cases where the false positive mitigations that secret detectors use cause them to miss live secrets.
+  In particular, regular expressions that require nearby keywords or non-word-character anchors are significant culprits.
+  Many of the secrets they found were exposed in public GitHub repositories, and found by no popular tool that they tried, including GitHub's own secret scanning.
+
 - 2025-10-29: [Ernst & Young accidentally expose secrets in 4TB database backup file](https://www.neosecurity.nl/blog/ey-data-leak-4tb-sql-server-backup)
 
   Researchers at Neo Security came across a 4TB SQL Server backup file in an Azure storage bucket.
