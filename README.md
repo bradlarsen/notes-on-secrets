@@ -13,6 +13,11 @@ This is a list of two things: (1) security incidents that involved exposed secre
   Researchers at Neo Security came across a 4TB SQL Server backup file in an Azure storage bucket.
   Through some investigation they discovered that the bucket belonged to Ernst & Young, and that it contained secrets.
 
+- 2025-10-28: [Tata Motors leaks AWS keys granting access to 70TB of data](https://eaton-works.com/2025/10/28/tata-motors-hack/)
+
+  Eaton Zveare discovered two AWS keys in the frontend Typescript code for a parts ordering website of Tata Motors.
+  The keys granted access to hundreds of S3 buckets containing 70TB of sensitive information, including customer lists and invoices.
+
 - 2025-07-31: [Finding secrets with a combination of regex and a fine-tuned BERT-based model](https://specterops.io/blog/2025/07/31/whats-your-secret-secret-scanning-by-deeppass2/)
 
   SpecterOps shares details of DeepPass2, their second iteration of a system designed to detect hardcoded secrets, particularly freeform passwords.
