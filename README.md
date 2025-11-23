@@ -28,6 +28,11 @@ This is a list of two things: (1) security incidents that involved exposed secre
   The end-of-life TP-Link Archer C50 router firmware embeds a key used for encrypting its configuration files.
   This hardcoded secret would allow an attacker access to admin credentials and wifi passwords.
 
+- 2025-07-14: [xAI API Key Leaked on GitHub](https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/)
+
+  An API key allowing access to at least 52 xAI LLMs was exposed in a public GitHub repository.
+  The person responsible, an employee at DOGE, had been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security.
+
 - 2025-06-10: [Lean and Mean: How We Fine-Tuned a Small Language Model for Secret Detection in Code](https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code)
 
   Erez Harush and Daniel Lazarev of Wiz give details of a "small" language model (Llama 3.2 1B) that they fine-tuned for generic secrets detection.
