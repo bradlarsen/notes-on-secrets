@@ -23,6 +23,11 @@ This is a list of two things: (1) security incidents that involved exposed secre
   SpecterOps shares details of DeepPass2, their second iteration of a system designed to detect hardcoded secrets, particularly freeform passwords.
   DeepPass2 combines regex-based secrets detection from [Nosey Parker](https://github.com/praetorian-inc/noseyparker) with a custom fine-tuned BERT-based language model (xlm-RoBERTa-base).
 
+- 2025-07-29: [The TP-Link Archer C50 Router Firmware Includes Hard-Coded Encryption Key](https://kb.cert.org/vuls/id/554637)
+
+  The end-of-life TP-Link Archer C50 router firmware embeds a key used for encrypting its configuration files.
+  This hardcoded secret would allow an attacker access to admin credentials and wifi passwords.
+
 - 2025-06-10: [Lean and Mean: How We Fine-Tuned a Small Language Model for Secret Detection in Code](https://www.wiz.io/blog/small-language-model-for-secrets-detection-in-code)
 
   Erez Harush and Daniel Lazarev of Wiz give details of a "small" language model (Llama 3.2 1B) that they fine-tuned for generic secrets detection.
